@@ -3,7 +3,7 @@ module.exports = {
     title: `Raouf's Blog`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `Raouf Fathi`,
-    siteUrl: 'https://wizardly-benz-c5e27b.netlify.com'
+    siteUrl: 'https://raouf.de'
   },
   plugins: [
     `gatsby-plugin-sitemap`,
