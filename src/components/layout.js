@@ -6,7 +6,7 @@ import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
 import { Link } from 'gatsby'
 import "./css/postLayout.css"
-
+import { Helmet } from "react-helmet"
 
 
 const Layout = ({ children, location }) => (
@@ -25,10 +25,12 @@ const Layout = ({ children, location }) => (
    
        
           <div>
+       
+
           <header className="header-global">
-          <nav id="navbar-main" className="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom">
+          <nav id="navbar-main" className="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light ">
             <div className="container">
-            
+
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
             </button>
@@ -37,7 +39,7 @@ const Layout = ({ children, location }) => (
                 <div className="row">
                  
                   <div className="col-6 collapse-close">
-                    <button type="button" className="navbar-toggler" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
+                    <button type="button" className="navbar-toggler" data-toggle="collapse">
                       <span></span>
                       <span></span>
                     </button>
@@ -45,24 +47,14 @@ const Layout = ({ children, location }) => (
                 </div>
               </div>
               <ul className="navbar-nav navbar-nav-hover align-items-lg-center">
-                
-                
-                  <a   className="nav-link headerA"  data-toggle="dropdown"  role="button">
-                    <i className="ni ni-collection d-lg-none"></i>
-                    <Link style={{color: 'white'}} to={`/blog`}>
-                    <span className="nav-link-inner--text">Blog</span>
-                    </Link>
-                    
-                  </a>
-                  <a   className="nav-link headerA"  data-toggle="dropdown" role="button">
-                  <i className="ni ni-collection d-lg-none"></i>
-                  <Link  style={{color: 'white'}} to={`/about`}>
+              <li>
+              <Link  className="nav-link headerA" style={{color: 'white'}} to={`/blog`}>
+              <span className="nav-link-inner--text">Blog</span>
+              </Link>             
+              </li>   
+                  <Link  className="nav-link headerA" style={{color: 'white'}} to={`/about`}>
                     <span className="nav-link-inner--text">About</span>
                     </Link>
-                  
-                </a>
-                  
-               
               </ul>
               <ul className="navbar-nav align-items-lg-center ml-lg-auto">
          
@@ -72,7 +64,6 @@ const Layout = ({ children, location }) => (
               <span className="nav-link-inner--text d-lg-none">Linkedin</span>
             </a>
           </li>
-
           <li className="nav-item">
             <a className="nav-link nav-link-icon" href="https://twitter.com/Roufrey" target="_blank" data-toggle="tooltip" title="Twitter">
               <i className="fa fa-twitter-square"></i>
@@ -84,13 +75,7 @@ const Layout = ({ children, location }) => (
               <i className="fa fa-github"></i>
               <span className="nav-link-inner--text d-lg-none">Github</span>
             </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link nav-link-icon" href="https://www.researchgate.net/profile/Abdurraouf_Sawehli" target="_blank" data-toggle="tooltip" title="Star us on ResearchGate">
-              <i className="fab fa-researchgate"></i>
-              <span className="nav-link-inner--text d-lg-none">ResearchGate</span>
-            </a>
-          </li>
+          </li>  
         </ul>
             </div>
           </div>
@@ -99,7 +84,7 @@ const Layout = ({ children, location }) => (
     <main>
       <div className="position-relative">
 
-        <section className="section section-lg section-shaped pb-200">
+        <section className="section section-md section-shaped pb-200">
           <div className="shape shape-style-1 shape-default">
             <span></span>
             <span></span>
@@ -111,10 +96,10 @@ const Layout = ({ children, location }) => (
             <span></span>
             <span></span>
           </div>
-          <div className="container py-lg-md d-flex">
+          <div className="container py-lg-sm">
             <div className="col px-0">
               <div className="row">
-                <div className="col-lg-6">
+                <div className="col-lg-8">
                   <h1 className="display-3  text-white">Hi there! 👋
                     <span>I'm Raouf</span>
                   </h1>
@@ -142,7 +127,7 @@ const Layout = ({ children, location }) => (
      
       </div>
       
-      <section className="section section-lg pt-lg-1 mt--200">
+      <section className="section section-sm pt-lg-1 mt--200">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-12">

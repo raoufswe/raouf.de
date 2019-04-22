@@ -4,61 +4,62 @@ import React from 'react';
 import "../components/css/postLayout.css"
 
 import { Link } from 'gatsby'
+import { Helmet } from "react-helmet"
 
 const Footer = ({location}) => (
-    
+ 
     <footer className="footer footerPadding ">
  
-    <div class="container">
-    <div class="row row-grid align-items-center">
-        <div class="col-lg-6">
-          <h4 class="mb-0 font-weight-light">Let's get in touch on any of these platforms.</h4>
+    <div className="container">
+    <div className="row row-grid align-items-center">
+        <div className="col-lg-6">
+          <h4 className="mb-0 font-weight-light">Let's get in touch on any of these platforms.</h4>
         </div>
-        <div class="col-lg-6 text-lg-center">
-        <a target="_blank" href="https://www.linkedin.com/in/abdurraouf-fathi-aa3a81131/" class="btn btn-neutral btn-icon-only btn-linkedin btn-round btn-lg" data-toggle="tooltip" data-original-title="Linkedin">
-            <i class="fa fa-linkedin"></i>
+        <div className="col-lg-6 text-lg-center">
+        <a target="_blank" href="https://www.linkedin.com/in/abdurraouf-fathi-aa3a81131/" className="btn btn-neutral btn-icon-only btn-linkedin btn-round btn-lg" data-toggle="tooltip" data-original-title="Linkedin">
+            <i className="fa fa-linkedin"></i>
           </a>
 
-          <a target="_blank" href="https://github.com/raoufswe" class="btn btn-neutral btn-icon-only btn-github btn-round btn-lg" data-toggle="tooltip" data-original-title=" Github">
-            <i class="fa fa-github"></i>
+          <a target="_blank" href="https://github.com/raoufswe" className="btn btn-neutral btn-icon-only btn-github btn-round btn-lg" data-toggle="tooltip" data-original-title=" Github">
+            <i className="fa fa-github"></i>
           </a>
 
-          <a target="_blank" href="https://twitter.com/Roufrey" class="btn btn-neutral btn-icon-only btn-twitter btn-round btn-lg" data-toggle="tooltip" data-original-title="Twitter">
-            <i class="fa fa-twitter"></i>
+          <a target="_blank" href="https://twitter.com/Roufrey" className="btn btn-neutral btn-icon-only btn-twitter btn-round btn-lg" data-toggle="tooltip" data-original-title="Twitter">
+            <i className="fa fa-twitter"></i>
           </a>
-          <a target="_blank" href="https://instagram.com/raoufswe" class="btn btn-neutral btn-icon-only btn-instagram btn-round btn-lg" data-toggle="tooltip" data-original-title="instagram">
-            <i class="fa fa-instagram"></i>
+          <a target="_blank" href="https://instagram.com/raoufswe" className="btn btn-neutral btn-icon-only btn-instagram btn-round btn-lg" data-toggle="tooltip" data-original-title="instagram">
+            <i className="fa fa-instagram"></i>
           </a>
         </div>
       </div>
       <hr />  
-      <div class="row align-items-center justify-content-md-between">
-      <div class="col-md-6">
-        <div class="copyright">
+      <div className="row align-items-center justify-content-md-between">
+      <div className="col-md-6">
+        <div className="copyright">
           &copy; 2019 
           
           <a  href="https://github.com/raoufswe" target="_blank"> Raouf Fathi 👋</a>
          
         </div>
       </div>
-      <div class="col-md-6">
-        <ul class="nav nav-footer justify-content-end">
+      <div className="col-md-6">
+        <ul className="nav nav-footer justify-content-end">
           
-          <li class="nav-item">
-          <Link to={`/`}>
-            <a class="nav-link" target="_blank">Home</a>
+          <li className="nav-item">
+          <Link  className="nav-link" to={`/`}>
+           Home
           </Link>
           </li>
 
-          <li class="nav-item">
-          <Link to={`/blog`}>
-            <a class="nav-link" target="_blank">Blog</a>
+          <li className="nav-item">
+          <Link className="nav-link"  to={`/blog`}>
+            Blog
             </Link>
           </li>
 
-          <li class="nav-item">
-          <Link to={`/about`}>
-            <a   class="nav-link" target="_blank">About</a>
+          <li className="nav-item">
+          <Link className="nav-link" to={`/about`}>
+              About
             </Link>
           </li>
          
@@ -66,6 +67,11 @@ const Footer = ({location}) => (
       </div>
     </div>
     </div>
+
+    <Helmet>         
+    <meta charSet="utf-8" />         
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    </Helmet>
   </footer>
 
 
