@@ -1,7 +1,7 @@
 backend: 
   name: github
   branch: master 
-  repo: raoufswe/my-blog-gatsby
+  repo: raoufswe/myWebsite
 
 media_folder: static/img
 public_folder: /img
