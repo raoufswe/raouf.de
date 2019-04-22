@@ -9,76 +9,18 @@ import { Helmet } from "react-helmet"
 const About = ({location}) => (
 
  <div>
- <Helmet>         
- <meta charSet="utf-8" />         
- <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
- </Helmet>
+ 
  <header className="header-global">
+          <nav id="navbar-main" className="navbar   navbar-transparent  ">
+        <div className="container" >
+  
+      <Link to={`/`} style={{color: 'white'}} class="nav-item headerA nav-link  navbar-nav-hover" >🏡 Home </Link>
+      <Link  to={`/blog`} style={{color: 'white'}} class="nav-item headerA nav-link  navbar-nav-hover" >🧾 Blog</Link>
  
- <nav id="navbar-main" className="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom">
-   <div className="container">
-   
-   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
-     <span className="navbar-toggler-icon"></span>
-   </button>
-   <div className="navbar-collapse collapse" id="navbar_global">
-     <div className="navbar-collapse-header">
-       <div className="row">
-        
-         <div className="col-6 collapse-close">
-           <button type="button" className="navbar-toggler" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
-             <span></span>
-             <span></span>
-           </button>
-         </div>
-       </div>
-     </div>
-     <ul className="navbar-nav navbar-nav-hover align-items-lg-center">
-     <li>
+      </div>
 
-     <Link  className="nav-link headerA" style={{color: 'white'}} to={`/`}>
-     <span className="nav-link-inner--text">Home</span>
-     </Link>
-     
-     </li>   
-    
-     
-   
-         <Link  className="nav-link headerA" style={{color: 'white'}} to={`/blog`}>
-           <span className="nav-link-inner--text">Blog</span>
-           </Link>
-         
-   
-         
-      
-     </ul>
-     <ul className="navbar-nav align-items-lg-center ml-lg-auto">
-
-<li className="nav-item">
-   <a className="nav-link nav-link-icon" href="https://www.linkedin.com/in/abdurraouf-fathi-aa3a81131/" target="_blank" data-toggle="tooltip" title="Linkedin">
-     <i className="fa fa-linkedin"></i>
-     <span className="nav-link-inner--text d-lg-none">Linkedin</span>
-   </a>
- </li>
-
- <li className="nav-item">
-   <a className="nav-link nav-link-icon" href="https://twitter.com/Roufrey" target="_blank" data-toggle="tooltip" title="Twitter">
-     <i className="fa fa-twitter-square"></i>
-     <span className="nav-link-inner--text d-lg-none">Twitter</span>
-   </a>
- </li>
- <li className="nav-item">
-   <a className="nav-link nav-link-icon" href="https://github.com/raoufswe" target="_blank" data-toggle="tooltip" title="Github">
-     <i className="fa fa-github"></i>
-     <span className="nav-link-inner--text d-lg-none">Github</span>
-   </a>
- </li>
- 
-</ul>
-   </div>
- </div>
 </nav>
-</header>
+      </header>
   <main className="profile-page">
     <section className="section-profile-cover section-shaped my-0">
 

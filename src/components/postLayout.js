@@ -14,66 +14,15 @@ class postLayout extends Component {
             <div>
  
             <header className="header-global">
-            <nav id="navbar-main" className="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light ">
-              <div className="container">
+            <nav id="navbar-main" className="navbar   navbar-transparent  ">
+          <div className="container" >
+    
+        <Link to={`/`} style={{color: 'white'}} class="nav-item headerA nav-link  navbar-nav-hover" >🏡 Home</Link>
+        <Link  to={`/about`} style={{color: 'white'}} class="nav-item headerA nav-link  navbar-nav-hover" >🙋🏼‍♂️ About</Link>
+   
+        </div>
   
-              <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon"></span>
-              </button>
-              <div className="navbar-collapse collapse" id="navbar_global">
-                <div className="navbar-collapse-header">
-                  <div className="row">
-                   
-                    <div className="col-6 collapse-close">
-                      <button type="button" className="navbar-toggler" data-toggle="collapse">
-                        <span></span>
-                        <span></span>
-                      </button>
-                    </div>
-                  </div>
-                </div>
-                <ul className="navbar-nav navbar-nav-hover align-items-lg-center">
-                <li>
-                <Link  className="nav-link headerA" style={{color: 'white'}} to={`/`}>
-                <span className="nav-link-inner--text">Home</span>
-                </Link>             
-                </li>   
-                <li>
-                    <Link  className="nav-link headerA" style={{color: 'white'}} to={`/blog`}>
-                      <span className="nav-link-inner--text">Blog</span>
-                      </Link>
-                </li>
-
-                <li>
-                <Link  className="nav-link headerA" style={{color: 'white'}} to={`/about`}>
-                  <span className="nav-link-inner--text">About</span>
-                  </Link>
-            </li>
-                </ul>
-                <ul className="navbar-nav align-items-lg-center ml-lg-auto">
-           
-          <li className="nav-item">
-              <a className="nav-link nav-link-icon" href="https://www.linkedin.com/in/abdurraouf-fathi-aa3a81131/" target="_blank" data-toggle="tooltip" title="Linkedin">
-                <i className="fa fa-linkedin"></i>
-                <span className="nav-link-inner--text d-lg-none">Linkedin</span>
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link nav-link-icon" href="https://twitter.com/Roufrey" target="_blank" data-toggle="tooltip" title="Twitter">
-                <i className="fa fa-twitter-square"></i>
-                <span className="nav-link-inner--text d-lg-none">Twitter</span>
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link nav-link-icon" href="https://github.com/raoufswe" target="_blank" data-toggle="tooltip" title="Github">
-                <i className="fa fa-github"></i>
-                <span className="nav-link-inner--text d-lg-none">Github</span>
-              </a>
-            </li>  
-          </ul>
-              </div>
-            </div>
-          </nav>
+  </nav>
         </header>
   <main className="profile-page section-md">
     <section className="section-profile-cover section-shaped ">

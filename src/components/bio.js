@@ -43,7 +43,7 @@ const Bio = ({location}) => (
             </div>
 
             <div className="btn-wrapper mt-5  ">
-            <a href="https://s3.amazonaws.com/raoufrey/CV.pdf" target="_blank" class="btn btn-warning btn-icon">
+            <a href="https://s3.amazonaws.com/raoufrey/CV.pdf" class="btn btn-warning btn-icon">
              
                   <i class="fa fa-cloud-download mr-2    "></i>
                

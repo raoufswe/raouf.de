@@ -16,18 +16,18 @@ const Footer = ({location}) => (
           <h4 className="mb-0 font-weight-light">Let's get in touch on any of these platforms.</h4>
         </div>
         <div className="col-lg-6 text-lg-center">
-        <a target="_blank" href="https://www.linkedin.com/in/abdurraouf-fathi-aa3a81131/" className="btn btn-neutral btn-icon-only btn-linkedin btn-round btn-lg" data-toggle="tooltip" data-original-title="Linkedin">
+        <a href="https://www.linkedin.com/in/abdurraouf-fathi-aa3a81131/" className="btn btn-neutral btn-icon-only btn-linkedin btn-round btn-lg" data-toggle="tooltip" data-original-title="Linkedin">
             <i className="fa fa-linkedin"></i>
           </a>
 
-          <a target="_blank" href="https://github.com/raoufswe" className="btn btn-neutral btn-icon-only btn-github btn-round btn-lg" data-toggle="tooltip" data-original-title=" Github">
+          <a href="https://github.com/raoufswe" className="btn btn-neutral btn-icon-only btn-github btn-round btn-lg" data-toggle="tooltip" data-original-title=" Github">
             <i className="fa fa-github"></i>
           </a>
 
-          <a target="_blank" href="https://twitter.com/Roufrey" className="btn btn-neutral btn-icon-only btn-twitter btn-round btn-lg" data-toggle="tooltip" data-original-title="Twitter">
+          <a href="https://twitter.com/Roufrey" className="btn btn-neutral btn-icon-only btn-twitter btn-round btn-lg" data-toggle="tooltip" data-original-title="Twitter">
             <i className="fa fa-twitter"></i>
           </a>
-          <a target="_blank" href="https://instagram.com/raoufswe" className="btn btn-neutral btn-icon-only btn-instagram btn-round btn-lg" data-toggle="tooltip" data-original-title="instagram">
+          <a href="https://instagram.com/raoufswe" className="btn btn-neutral btn-icon-only btn-instagram btn-round btn-lg" data-toggle="tooltip" data-original-title="instagram">
             <i className="fa fa-instagram"></i>
           </a>
         </div>
@@ -38,7 +38,7 @@ const Footer = ({location}) => (
         <div className="copyright">
           &copy; 2019 
           
-          <a  href="https://github.com/raoufswe" target="_blank"> Raouf Fathi 👋</a>
+          <a  href="https://github.com/raoufswe"> Raouf Fathi 👋</a>
          
         </div>
       </div>
