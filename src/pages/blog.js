@@ -3,7 +3,7 @@ import Footer from '../components/footer'
 import "../components/css/postLayout.css"
 import { Link } from 'gatsby'
 import { StaticQuery, graphql } from 'gatsby'
-import { Helmet } from "react-helmet"
+
 
 const LISTING_QUERY = graphql`
         query BlogPostLIstingforTheBlog{

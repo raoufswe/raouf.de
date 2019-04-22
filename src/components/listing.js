@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link, StaticQuery, graphql } from 'gatsby'
-import styled from 'styled-components'
  
 const LISTING_QUERY = graphql`
         query BlogPostLIsting{
@@ -30,7 +29,7 @@ const Listing = () => (
     
     render = {({allMarkdownRemark}) => (
         allMarkdownRemark.edges.map(edge => (
-           
+
                     <div className="col-lg-4">
                       <div className="card card-lift--hover shadow border-0">
                         <div className="card-body py-5">
@@ -50,7 +49,6 @@ const Listing = () => (
         ))
     )}
     
-
     />
 )
 

@@ -6,7 +6,7 @@ import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
 import { Link } from 'gatsby'
 import "./css/postLayout.css"
-import { Helmet } from "react-helmet"
+
 
 
 const Layout = ({ children, location }) => (

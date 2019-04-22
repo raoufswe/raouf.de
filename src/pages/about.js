@@ -1,11 +1,9 @@
 import React from 'react'; 
-
-
 import Footer from '../components/footer.js'
 import "../components/css/postLayout.css"
 import mypic from '../images/28605803.jpg'
 import { Link } from 'gatsby'
-import { Helmet } from "react-helmet"
+
 const About = ({location}) => (
 
  <div>
