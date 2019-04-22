@@ -4,6 +4,7 @@ import "../components/css/postLayout.css"
 import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
+import { Helmet } from "react-helmet"
 
 const LISTING_QUERY = graphql`
         query BlogPostLIstingforTheBlog{
@@ -29,6 +30,10 @@ const LISTING_QUERY = graphql`
 
 const Blog = ({children, location }) => (
   <div>
+  <Helmet>         
+  <meta charSet="utf-8" />         
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  </Helmet>
   <div>
   <header className="header-global">
       <nav id="navbar-main" className="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom">
@@ -134,6 +139,10 @@ const Blog = ({children, location }) => (
   </div>
     </main>
     </div>
+    <body>
+
+
+</body>
   <StaticQuery 
   query= {LISTING_QUERY}
 
