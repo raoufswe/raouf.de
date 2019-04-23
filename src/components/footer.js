@@ -16,18 +16,18 @@ const Footer = ({location}) => (
           <h4 className="mb-0 font-weight-light">Let's get in touch on any of these platforms.</h4>
         </div>
         <div className="col-lg-6 text-lg-center">
-        <a href="https://www.linkedin.com/in/abdurraouf-fathi-aa3a81131/" className="btn btn-neutral btn-icon-only btn-linkedin btn-round btn-lg" data-toggle="tooltip" data-original-title="Linkedin">
+        <a href="https://www.linkedin.com/in/abdurraouf-fathi-aa3a81131/" className="btn btn-neutral btn-icon-only btn-linkedin btn-round btn-lg" aria-label="Linkedin" data-original-title="Linkedin">
             <i className="fa fa-linkedin"></i>
           </a>
 
-          <a href="https://github.com/raoufswe" className="btn btn-neutral btn-icon-only btn-github btn-round btn-lg" data-toggle="tooltip" data-original-title=" Github">
+          <a href="https://github.com/raoufswe" className="btn btn-neutral btn-icon-only btn-github btn-round btn-lg" aria-label="Github" data-original-title=" Github">
             <i className="fa fa-github"></i>
           </a>
 
-          <a href="https://twitter.com/Roufrey" className="btn btn-neutral btn-icon-only btn-twitter btn-round btn-lg" data-toggle="tooltip" data-original-title="Twitter">
+          <a href="https://twitter.com/Roufrey" className="btn btn-neutral btn-icon-only btn-twitter btn-round btn-lg" aria-label="Twitter" data-original-title="Twitter">
             <i className="fa fa-twitter"></i>
           </a>
-          <a href="https://instagram.com/raoufswe" className="btn btn-neutral btn-icon-only btn-instagram btn-round btn-lg" data-toggle="tooltip" data-original-title="instagram">
+          <a href="https://instagram.com/raoufswe" className="btn btn-neutral btn-icon-only btn-instagram btn-round btn-lg" aria-label="instagram" data-original-title="instagram">
             <i className="fa fa-instagram"></i>
           </a>
         </div>
@@ -67,11 +67,6 @@ const Footer = ({location}) => (
       </div>
     </div>
     </div>
-
-    <Helmet>         
-    <meta charSet="utf-8" />         
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-    </Helmet>
   </footer>
 
 

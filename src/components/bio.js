@@ -12,7 +12,7 @@ const Bio = ({location}) => (
      
         <div class="col-md-6 order-lg-2 ml-lg-auto">
           <div class="position-relative pl-md-5">
-          <img src={svgPic} class="img-center img-fluid" />
+          <img src={svgPic} class="img-center img-fluid" alt="svg-pic" />
           </div>
         </div>
 
@@ -43,7 +43,7 @@ const Bio = ({location}) => (
             </div>
 
             <div className="btn-wrapper mt-5  ">
-            <a href="https://s3.amazonaws.com/raoufrey/CV.pdf" class="btn btn-warning btn-icon">
+            <a href="https://s3.amazonaws.com/raoufrey/CV.pdf" class="btn btn-warning btn-icon" aria-label="CV">
              
                   <i class="fa fa-cloud-download mr-2    "></i>
                
