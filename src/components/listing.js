@@ -37,7 +37,7 @@ const Listing = () => (
                             <i className="ni ni-check-bold"></i>
                           </div>
                           <Link  to={`/posts${edge.node.frontmatter.slug}`}>
-                          <h6 className="text-primary text-uppercase">📝{edge.node.frontmatter.title}</h6>
+                          <h6 className="text-primary text-uppercase">📝<strong>{edge.node.frontmatter.title}</strong></h6>
                           </Link>
                           <p className="description mt-3"><strong>📅 {edge.node.frontmatter.date}</strong></p>
                           <p className="description mt-3">{edge.node.frontmatter.description}</p>
