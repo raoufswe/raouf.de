@@ -7,8 +7,11 @@ const IndexPage = ({location}) => (
 
 <div>
     <Helmet>         
-    <meta charSet="utf-8" />       
+    <meta charSet="utf-8" />  
+    <meta name="description" content="This is a personal website for Raouf" />
+  <title>Raouf's webite</title>
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  
     </Helmet>
 
  <Layout location={location}>

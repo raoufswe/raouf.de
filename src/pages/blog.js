@@ -43,7 +43,7 @@ const Blog = ({children, location }) => (
   <main>
   <div className="position-relative">
   
-    <section className="section section-lg section-shaped ">
+    <section className="section section-lg ">
       <div className="shape shape-style-1 shape-default">
         <span></span>
         <span></span>
