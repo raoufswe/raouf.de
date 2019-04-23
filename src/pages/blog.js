@@ -92,7 +92,7 @@ const Blog = ({children, location }) => (
                         </Link>
                         <p className="description mt-3"><strong><span role="img" aria-label="">📅</span>{edge.node.frontmatter.date}</strong></p>
                         <p className="description mt-3">{edge.node.frontmatter.description}</p>
-                        <Link  to={`/posts${edge.node.frontmatter.slug}`} className="btn btn-primary mt-4">Learn more</Link>
+                        <Link  to={`/posts${edge.node.frontmatter.slug}`} className="btn btn-primary mt-4">Read more</Link>
                       </div>
                     </div>
                   </div>
