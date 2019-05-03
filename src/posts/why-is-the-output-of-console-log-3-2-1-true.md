@@ -4,7 +4,7 @@ date: 2019-05-03T17:38:50.315Z
 description: >-
   Logically, the answer should be False, but JavaScript has a different point of
   view and says it's true! 
-slug: Why is the output of console.log(3<2<1) true?
+slug: Why is the output of console.log(3<2<1) true
 ---
 If someone asks you what the answer of `console.log(3<2<1)` is, you will properly think it's extremely easy and it does not take 10 seconds to solve it, right? 👀 
 
