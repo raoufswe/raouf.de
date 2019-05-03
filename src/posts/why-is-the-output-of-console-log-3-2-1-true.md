@@ -10,9 +10,9 @@ If someone asks you what the answer of `console.log(3<2<1)` is, you will properl
 
 However, it's harder than you expect!
 
-If we try to find the output of `console.log(3<2<1)` logically, the output should be **True** as 3 is less than 2 and 2 is less than 1. 
+If we try to find the output of `console.log(3<2<1)` logically, the output should be False as 3 is not less than 2 and 2 is not less than 1. 
 
-But things run a little bit differently in JavaScript as the output is **False** even though logically it is **True**! 😅
+But things run a little bit differently in JavaScript as the output is **True** even though logically it is **False**! 😅
 
 WHY IS THAT HAPPENING? Is JS a stupid language? Well, short answer is no because of the term **Coercion.**
 
@@ -27,7 +27,5 @@ Now, is 0 less than 1? the answer is **True**. So even though it should be logic
 This question is quite tricky and many interviewers love to ask it. Make sure to check the following link to grasp what **Coercion** is and nail questions like this! Good Luck 💓
 
 https://bit.ly/2Rofwsa
-
-
 
 - - -
