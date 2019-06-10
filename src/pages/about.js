@@ -55,9 +55,9 @@ const About = ({location}) => (
             <div className="mt-5 py-5 border-top ">
               <div className="row justify-content-center">
                 <div className="col-lg-9">
-                  <p>I'm a Network Computing graduate with interest in web development, network automation and programming. I love seeking new ways to improve my personal and technical skills to gain more experience 💁‍♂️</p>
+                  <p> I'm a Network Computing graduate with interest in web development, network automation, and programming. My passion for technology has begun since my early age and choosing to study computer science at university was only one step to fulfill my ambition to help people to have a better life through IT solutions 💁‍♂️</p>
                   
-                  <p>While I pursued my bachelor's degree and self learning journey, I have gained a good amount of knowledge in networking and security technologies as well as programming in different languages such as Python, Java, and JavaScript 🦸‍♂️</p>
+                  <p>While I pursued my bachelor's degree and self-learning journey, I have gained a good amount of knowledge in networking and security technologies as well as programming in different languages such as Python, Java, and JavaScript 🦸‍♂️</p>
                  <p> In my spare time, I enjoy watching documentaries and TV series, playing football and writing 🤙
                   </p>
                   
